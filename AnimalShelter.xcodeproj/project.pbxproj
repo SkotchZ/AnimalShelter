@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E312EBEFA31F79310B04712 /* Pods_AnimalShelter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A96B0C04186ECA17A80D67 /* Pods_AnimalShelter.framework */; };
+		C200B056227A04160044E750 /* ShelterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200B054227A04160044E750 /* ShelterTableViewCell.swift */; };
+		C200B057227A04160044E750 /* ShelterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C200B055227A04160044E750 /* ShelterTableViewCell.xib */; };
+		C200B059227B2D1E0044E750 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200B058227B2D1E0044E750 /* Pet.swift */; };
+		C200B05B227B3B2B0044E750 /* ShelterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200B05A227B3B2B0044E750 /* ShelterModel.swift */; };
+		C200B061227B6AAB0044E750 /* PetProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200B060227B6AAB0044E750 /* PetProfileTableViewController.swift */; };
+		C200B063227B6ABD0044E750 /* ShelterProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200B062227B6ABD0044E750 /* ShelterProfileTableViewController.swift */; };
+		C200B067227B6D5E0044E750 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200B066227B6D5E0044E750 /* Comment.swift */; };
+		C2010EB3226B9B0100788EC2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2010EB2226B9B0100788EC2 /* GoogleService-Info.plist */; };
+		C2010EB5226B9E4800788EC2 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2010EB4226B9E4800788EC2 /* LoginController.swift */; };
+		C2010EB7226B9EB200788EC2 /* SingupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2010EB6226B9EB200788EC2 /* SingupController.swift */; };
+		C2101008227DCDD800A5BF21 /* PetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2101006227DCDD800A5BF21 /* PetTableViewCell.swift */; };
+		C2101009227DCDD800A5BF21 /* PetTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2101007227DCDD800A5BF21 /* PetTableViewCell.xib */; };
+		C210100B227DFC2600A5BF21 /* CommentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C210100A227DFC2600A5BF21 /* CommentTableViewController.swift */; };
+		C210100D227E097200A5BF21 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C210100C227E097200A5BF21 /* PopUpViewController.swift */; };
+		C2101012227E62F800A5BF21 /* PetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2101011227E62F800A5BF21 /* PetModel.swift */; };
+		C2101014227E630D00A5BF21 /* CommnetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2101013227E630D00A5BF21 /* CommnetModel.swift */; };
+		C210BE5122821BFC001D5E91 /* PetShelterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C210BE5022821BFC001D5E91 /* PetShelterModel.swift */; };
+		C210BE5322821C6B001D5E91 /* PetShelter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C210BE5222821C6B001D5E91 /* PetShelter.swift */; };
+		C21A9C20226D308E007A3771 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21A9C1F226D308E007A3771 /* ProfileController.swift */; };
+		C21A9C22226FC1A7007A3771 /* MapScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21A9C21226FC1A7007A3771 /* MapScreenController.swift */; };
+		C22ED8612268EFA300B6C0BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22ED8602268EFA300B6C0BD /* AppDelegate.swift */; };
+		C22ED8662268EFA300B6C0BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C22ED8642268EFA300B6C0BD /* Main.storyboard */; };
+		C22ED8682268EFA700B6C0BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C22ED8672268EFA700B6C0BD /* Assets.xcassets */; };
+		C22ED86B2268EFA700B6C0BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C22ED8692268EFA700B6C0BD /* LaunchScreen.storyboard */; };
+		C2795E99228B37080078B948 /* sadCat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C2795E98228B37070078B948 /* sadCat.jpeg */; };
+		C2795E9E228B49120078B948 /* PersistentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2795E9D228B49120078B948 /* PersistentService.swift */; };
+		C2795EE4228B76420078B948 /* AnimalShelter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2795EE1228B76420078B948 /* AnimalShelter.xcdatamodeld */; };
+		C2795EE7228B771A0078B948 /* PetCoreData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2795EE5228B771A0078B948 /* PetCoreData+CoreDataClass.swift */; };
+		C2795EE8228B771A0078B948 /* PetCoreData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2795EE6228B771A0078B948 /* PetCoreData+CoreDataProperties.swift */; };
+		C2795EED228C033F0078B948 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2795EEB228C033F0078B948 /* CommentTableViewCell.swift */; };
+		C2795EEE228C033F0078B948 /* CommentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2795EEC228C033F0078B948 /* CommentTableViewCell.xib */; };
+		C27A4D2322727BF5003D1F16 /* PetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A4D2222727BF5003D1F16 /* PetTableViewController.swift */; };
+		C27A4D2522727C06003D1F16 /* ShelterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A4D2422727C06003D1F16 /* ShelterTableViewController.swift */; };
+		C27A4D2722730CEE003D1F16 /* Shelter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27A4D2622730CEE003D1F16 /* Shelter.swift */; };
+		C2D5E1992285B3FC00D3F793 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D5E1982285B3FC00D3F793 /* User.swift */; };
+		C2D5E19B2285B49800D3F793 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D5E19A2285B49800D3F793 /* UserModel.swift */; };
+		C2D5E19E2285F06E00D3F793 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D5E19D2285F06E00D3F793 /* DataProvider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C75D609457923352FADA2E1 /* Pods-AnimalShelter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalShelter.release.xcconfig"; path = "Target Support Files/Pods-AnimalShelter/Pods-AnimalShelter.release.xcconfig"; sourceTree = "<group>"; };
+		8CD95E7282876E1ED4F2174A /* Pods-AnimalShelter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimalShelter.debug.xcconfig"; path = "Target Support Files/Pods-AnimalShelter/Pods-AnimalShelter.debug.xcconfig"; sourceTree = "<group>"; };
+		A7A96B0C04186ECA17A80D67 /* Pods_AnimalShelter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimalShelter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C200B054227A04160044E750 /* ShelterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterTableViewCell.swift; sourceTree = "<group>"; };
+		C200B055227A04160044E750 /* ShelterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShelterTableViewCell.xib; sourceTree = "<group>"; };
+		C200B058227B2D1E0044E750 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		C200B05A227B3B2B0044E750 /* ShelterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterModel.swift; sourceTree = "<group>"; };
+		C200B060227B6AAB0044E750 /* PetProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetProfileTableViewController.swift; sourceTree = "<group>"; };
+		C200B062227B6ABD0044E750 /* ShelterProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterProfileTableViewController.swift; sourceTree = "<group>"; };
+		C200B066227B6D5E0044E750 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		C2010EB2226B9B0100788EC2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C2010EB4226B9E4800788EC2 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		C2010EB6226B9EB200788EC2 /* SingupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingupController.swift; sourceTree = "<group>"; };
+		C2101006227DCDD800A5BF21 /* PetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetTableViewCell.swift; sourceTree = "<group>"; };
+		C2101007227DCDD800A5BF21 /* PetTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PetTableViewCell.xib; sourceTree = "<group>"; };
+		C210100A227DFC2600A5BF21 /* CommentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewController.swift; sourceTree = "<group>"; };
+		C210100C227E097200A5BF21 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		C2101011227E62F800A5BF21 /* PetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetModel.swift; sourceTree = "<group>"; };
+		C2101013227E630D00A5BF21 /* CommnetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommnetModel.swift; sourceTree = "<group>"; };
+		C210BE5022821BFC001D5E91 /* PetShelterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetShelterModel.swift; sourceTree = "<group>"; };
+		C210BE5222821C6B001D5E91 /* PetShelter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetShelter.swift; sourceTree = "<group>"; };
+		C21A9C1F226D308E007A3771 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		C21A9C21226FC1A7007A3771 /* MapScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreenController.swift; sourceTree = "<group>"; };
+		C22ED85D2268EFA300B6C0BD /* AnimalShelter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalShelter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C22ED8602268EFA300B6C0BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C22ED8652268EFA300B6C0BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C22ED8672268EFA700B6C0BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C22ED86A2268EFA700B6C0BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C22ED86C2268EFA700B6C0BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2795E972288C5470078B948 /* AnimalShelter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AnimalShelter.entitlements; sourceTree = "<group>"; };
+		C2795E98228B37070078B948 /* sadCat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sadCat.jpeg; sourceTree = "<group>"; };
+		C2795E9D228B49120078B948 /* PersistentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentService.swift; sourceTree = "<group>"; };
+		C2795EE2228B76420078B948 /* AnimalShelter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AnimalShelter.xcdatamodel; sourceTree = "<group>"; };
+		C2795EE3228B76420078B948 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		C2795EE5228B771A0078B948 /* PetCoreData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PetCoreData+CoreDataClass.swift"; path = "AnimalShelter/PetCoreData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C2795EE6228B771A0078B948 /* PetCoreData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PetCoreData+CoreDataProperties.swift"; path = "AnimalShelter/PetCoreData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C2795EEB228C033F0078B948 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		C2795EEC228C033F0078B948 /* CommentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentTableViewCell.xib; sourceTree = "<group>"; };
+		C27A4D2222727BF5003D1F16 /* PetTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetTableViewController.swift; sourceTree = "<group>"; };
+		C27A4D2422727C06003D1F16 /* ShelterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterTableViewController.swift; sourceTree = "<group>"; };
+		C27A4D2622730CEE003D1F16 /* Shelter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shelter.swift; sourceTree = "<group>"; };
+		C2D5E1982285B3FC00D3F793 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C2D5E19A2285B49800D3F793 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		C2D5E19D2285F06E00D3F793 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C22ED85A2268EFA300B6C0BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E312EBEFA31F79310B04712 /* Pods_AnimalShelter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62A4820FDA9C594658D27E37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7A96B0C04186ECA17A80D67 /* Pods_AnimalShelter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C210100E227E3B0A00A5BF21 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C200B066227B6D5E0044E750 /* Comment.swift */,
+				C2101013227E630D00A5BF21 /* CommnetModel.swift */,
+				C200B058227B2D1E0044E750 /* Pet.swift */,
+				C2101011227E62F800A5BF21 /* PetModel.swift */,
+				C27A4D2622730CEE003D1F16 /* Shelter.swift */,
+				C200B05A227B3B2B0044E750 /* ShelterModel.swift */,
+				C210BE5022821BFC001D5E91 /* PetShelterModel.swift */,
+				C210BE5222821C6B001D5E91 /* PetShelter.swift */,
+				C2D5E1982285B3FC00D3F793 /* User.swift */,
+				C2D5E19A2285B49800D3F793 /* UserModel.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C210100F227E3B5700A5BF21 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C200B054227A04160044E750 /* ShelterTableViewCell.swift */,
+				C200B055227A04160044E750 /* ShelterTableViewCell.xib */,
+				C2101006227DCDD800A5BF21 /* PetTableViewCell.swift */,
+				C2101007227DCDD800A5BF21 /* PetTableViewCell.xib */,
+				C2795EEB228C033F0078B948 /* CommentTableViewCell.swift */,
+				C2795EEC228C033F0078B948 /* CommentTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C2101010227E3B8D00A5BF21 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C2010EB4226B9E4800788EC2 /* LoginController.swift */,
+				C2010EB6226B9EB200788EC2 /* SingupController.swift */,
+				C21A9C1F226D308E007A3771 /* ProfileController.swift */,
+				C21A9C21226FC1A7007A3771 /* MapScreenController.swift */,
+				C200B060227B6AAB0044E750 /* PetProfileTableViewController.swift */,
+				C27A4D2222727BF5003D1F16 /* PetTableViewController.swift */,
+				C27A4D2422727C06003D1F16 /* ShelterTableViewController.swift */,
+				C200B062227B6ABD0044E750 /* ShelterProfileTableViewController.swift */,
+				C210100A227DFC2600A5BF21 /* CommentTableViewController.swift */,
+				C210100C227E097200A5BF21 /* PopUpViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C22ED8542268EFA300B6C0BD = {
+			isa = PBXGroup;
+			children = (
+				C2795EE5228B771A0078B948 /* PetCoreData+CoreDataClass.swift */,
+				C2795EE6228B771A0078B948 /* PetCoreData+CoreDataProperties.swift */,
+				C22ED85F2268EFA300B6C0BD /* AnimalShelter */,
+				C22ED85E2268EFA300B6C0BD /* Products */,
+				E62A665832D74E11F875EA14 /* Pods */,
+				62A4820FDA9C594658D27E37 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C22ED85E2268EFA300B6C0BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C22ED85D2268EFA300B6C0BD /* AnimalShelter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C22ED85F2268EFA300B6C0BD /* AnimalShelter */ = {
+			isa = PBXGroup;
+			children = (
+				C2795E972288C5470078B948 /* AnimalShelter.entitlements */,
+				C2D5E19C2285ECFB00D3F793 /* Helpers */,
+				C2101010227E3B8D00A5BF21 /* ViewControllers */,
+				C210100F227E3B5700A5BF21 /* Cells */,
+				C210100E227E3B0A00A5BF21 /* Data */,
+				C22ED8602268EFA300B6C0BD /* AppDelegate.swift */,
+				C22ED8642268EFA300B6C0BD /* Main.storyboard */,
+				C22ED8672268EFA700B6C0BD /* Assets.xcassets */,
+				C2010EB2226B9B0100788EC2 /* GoogleService-Info.plist */,
+				C22ED8692268EFA700B6C0BD /* LaunchScreen.storyboard */,
+				C22ED86C2268EFA700B6C0BD /* Info.plist */,
+				C2795E98228B37070078B948 /* sadCat.jpeg */,
+			);
+			path = AnimalShelter;
+			sourceTree = "<group>";
+		};
+		C2D5E19C2285ECFB00D3F793 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C2D5E19D2285F06E00D3F793 /* DataProvider.swift */,
+				C2795E9D228B49120078B948 /* PersistentService.swift */,
+				C2795EE1228B76420078B948 /* AnimalShelter.xcdatamodeld */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E62A665832D74E11F875EA14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CD95E7282876E1ED4F2174A /* Pods-AnimalShelter.debug.xcconfig */,
+				8C75D609457923352FADA2E1 /* Pods-AnimalShelter.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C22ED85C2268EFA300B6C0BD /* AnimalShelter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C22ED86F2268EFA700B6C0BD /* Build configuration list for PBXNativeTarget "AnimalShelter" */;
+			buildPhases = (
+				05E085CA34B6C7E0141CFBAC /* [CP] Check Pods Manifest.lock */,
+				C22ED8592268EFA300B6C0BD /* Sources */,
+				C22ED85A2268EFA300B6C0BD /* Frameworks */,
+				C22ED85B2268EFA300B6C0BD /* Resources */,
+				7A49FF6DA9A1E82160D81260 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimalShelter;
+			productName = AnimalShelter;
+			productReference = C22ED85D2268EFA300B6C0BD /* AnimalShelter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C22ED8552268EFA300B6C0BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Игорь Скачков";
+				TargetAttributes = {
+					C22ED85C2268EFA300B6C0BD = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = C22ED8582268EFA300B6C0BD /* Build configuration list for PBXProject "AnimalShelter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C22ED8542268EFA300B6C0BD;
+			productRefGroup = C22ED85E2268EFA300B6C0BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C22ED85C2268EFA300B6C0BD /* AnimalShelter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C22ED85B2268EFA300B6C0BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22ED86B2268EFA700B6C0BD /* LaunchScreen.storyboard in Resources */,
+				C2010EB3226B9B0100788EC2 /* GoogleService-Info.plist in Resources */,
+				C22ED8682268EFA700B6C0BD /* Assets.xcassets in Resources */,
+				C2101009227DCDD800A5BF21 /* PetTableViewCell.xib in Resources */,
+				C2795E99228B37080078B948 /* sadCat.jpeg in Resources */,
+				C22ED8662268EFA300B6C0BD /* Main.storyboard in Resources */,
+				C200B057227A04160044E750 /* ShelterTableViewCell.xib in Resources */,
+				C2795EEE228C033F0078B948 /* CommentTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05E085CA34B6C7E0141CFBAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnimalShelter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A49FF6DA9A1E82160D81260 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimalShelter/Pods-AnimalShelter-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TinyConstraints.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnimalShelter/Pods-AnimalShelter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C22ED8592268EFA300B6C0BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C210100B227DFC2600A5BF21 /* CommentTableViewController.swift in Sources */,
+				C21A9C20226D308E007A3771 /* ProfileController.swift in Sources */,
+				C200B063227B6ABD0044E750 /* ShelterProfileTableViewController.swift in Sources */,
+				C200B061227B6AAB0044E750 /* PetProfileTableViewController.swift in Sources */,
+				C27A4D2522727C06003D1F16 /* ShelterTableViewController.swift in Sources */,
+				C2101012227E62F800A5BF21 /* PetModel.swift in Sources */,
+				C2795EE8228B771A0078B948 /* PetCoreData+CoreDataProperties.swift in Sources */,
+				C2010EB5226B9E4800788EC2 /* LoginController.swift in Sources */,
+				C210BE5322821C6B001D5E91 /* PetShelter.swift in Sources */,
+				C2D5E19B2285B49800D3F793 /* UserModel.swift in Sources */,
+				C210100D227E097200A5BF21 /* PopUpViewController.swift in Sources */,
+				C21A9C22226FC1A7007A3771 /* MapScreenController.swift in Sources */,
+				C2D5E1992285B3FC00D3F793 /* User.swift in Sources */,
+				C2795EE7228B771A0078B948 /* PetCoreData+CoreDataClass.swift in Sources */,
+				C2795E9E228B49120078B948 /* PersistentService.swift in Sources */,
+				C210BE5122821BFC001D5E91 /* PetShelterModel.swift in Sources */,
+				C2101014227E630D00A5BF21 /* CommnetModel.swift in Sources */,
+				C22ED8612268EFA300B6C0BD /* AppDelegate.swift in Sources */,
+				C27A4D2722730CEE003D1F16 /* Shelter.swift in Sources */,
+				C2795EE4228B76420078B948 /* AnimalShelter.xcdatamodeld in Sources */,
+				C2795EED228C033F0078B948 /* CommentTableViewCell.swift in Sources */,
+				C2010EB7226B9EB200788EC2 /* SingupController.swift in Sources */,
+				C200B067227B6D5E0044E750 /* Comment.swift in Sources */,
+				C2D5E19E2285F06E00D3F793 /* DataProvider.swift in Sources */,
+				C27A4D2322727BF5003D1F16 /* PetTableViewController.swift in Sources */,
+				C200B05B227B3B2B0044E750 /* ShelterModel.swift in Sources */,
+				C2101008227DCDD800A5BF21 /* PetTableViewCell.swift in Sources */,
+				C200B056227A04160044E750 /* ShelterTableViewCell.swift in Sources */,
+				C200B059227B2D1E0044E750 /* Pet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C22ED8642268EFA300B6C0BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C22ED8652268EFA300B6C0BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C22ED8692268EFA700B6C0BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C22ED86A2268EFA700B6C0BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C22ED86D2268EFA700B6C0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C22ED86E2268EFA700B6C0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C22ED8702268EFA700B6C0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CD95E7282876E1ED4F2174A /* Pods-AnimalShelter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AnimalShelter/AnimalShelter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H7S33Z2HH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Bolts\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKCoreKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKLoginKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleToolboxForMac\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities\"",
+					"\"${PODS_ROOT}/GoogleSignIn/Frameworks\"",
+					"$(SRCROOT)/**",
+				);
+				INFOPLIST_FILE = AnimalShelter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SFU.AnimalShelter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C22ED8712268EFA700B6C0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C75D609457923352FADA2E1 /* Pods-AnimalShelter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AnimalShelter/AnimalShelter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6H7S33Z2HH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Bolts\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKCoreKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKLoginKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore\"",
+					"$(SRCROOT)/**",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleToolboxForMac\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities\"",
+					"\"${PODS_ROOT}/GoogleSignIn/Frameworks\"",
+				);
+				INFOPLIST_FILE = AnimalShelter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SFU.AnimalShelter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C22ED8582268EFA300B6C0BD /* Build configuration list for PBXProject "AnimalShelter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C22ED86D2268EFA700B6C0BD /* Debug */,
+				C22ED86E2268EFA700B6C0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C22ED86F2268EFA700B6C0BD /* Build configuration list for PBXNativeTarget "AnimalShelter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C22ED8702268EFA700B6C0BD /* Debug */,
+				C22ED8712268EFA700B6C0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C2795EE1228B76420078B948 /* AnimalShelter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C2795EE2228B76420078B948 /* AnimalShelter.xcdatamodel */,
+				C2795EE3228B76420078B948 /* Model.xcdatamodel */,
+			);
+			currentVersion = C2795EE2228B76420078B948 /* AnimalShelter.xcdatamodel */;
+			path = AnimalShelter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C22ED8552268EFA300B6C0BD /* Project object */;
+}
